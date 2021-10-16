@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+.card {
+  padding: 10px;
+  border: none;
+}
+.deleteBtn {
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
+}
+.badge {
+  font-size: 16px;
+}
+
+.myBtn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.myBtn:hover {
+  cursor: pointer;
+}
+.myBtn:focus {
+  outline: none;
+}
+.edit {
+  color: slateblue;
+}
+
+.delete {
+  color: brown;
+}
